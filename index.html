@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daesel Frag - Game Development Blog</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Daesel Frag</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#blog" class="active">Development Blog</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#about">About the Game</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Blog Section -->
+      <section id="blog" class="section active">
+        <h2>Development Blog</h2>
+        <div class="blog-layout">
+          <div class="blog-sidebar">
+            <h3>Updates</h3>
+            <div class="update-boxes">
+              <div class="update-box active" data-post="post-1">
+                <div class="update-date">May 29, 2025</div>
+                <div class="update-title">Development Blog Release!!</div>
+              </div>
+              <div class="update-box" data-post="post-2">
+                <div class="update-date">June 5, 2025</div>
+                <div class="update-title">Character Design Insights</div>
+              </div>
+              <div class="update-box" data-post="post-3">
+                <div class="update-date">June 12, 2025</div>
+                <div class="update-title">Combat System Preview</div>
+              </div>
+              <div class="update-box" data-post="post-4">
+                <div class="update-date">June 20, 2025</div>
+                <div class="update-title">Enemy Types Revealed</div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-container">
+            <!-- Blog posts will be displayed as text-based entries -->
+            <article class="blog-post-text active" id="post-1">
+              <h3><u>Daesel Frag Development Blog Release!!</u></h3>
+              <div class="post-date">May 29, 2025</div>
+              <div class="post-content">
+                <p>
+                  Welcome to the official development blog for Daesel Frag! Here
+                  I'll be sharing regular updates on my progress, design
+                  decisions, and sneak peeks of what's to come with the game.
+                </p>
+                <p>
+                  First of all, I would have to show some of the core aspects of
+                  the game. To do this, I'll give a brief rundown of what the
+                  game is about, the goal of the game and the inspiration behind
+                  all of it.
+                </p>
+                <hr />
+                <h5>
+                  <li>
+                    <u><b>What is Daesel Frag?</b></u>
+                  </li>
+                </h5>
+                <br />
+                <p>
+                  Battle a horde of enemies in a round-based, hack-n-slash,
+                  rogue-like style gameplay. The main playable character of the
+                  game is Ryujin, but he isn't the only playable character
+                  available. As you play the game more, you will notice that
+                  there are several features that you can unlock after
+                  completing several runs.
+                </p>
+                <h5>
+                  <li>
+                    <u><b>Goal of the game</b></u>
+                  </li>
+                </h5>
+                <br />
+                <p>
+                  The goal of the game is to survive as long as you can until
+                  you meet your inevitable demise (similar to CoD zombies).
+                  After you've been defeated, your progress is reset to 0 and
+                  you are sent back to the main hub world called The Silent's
+                  Retreat. Inside of this hub world, you can allocate stat
+                  points to grow stronger for your next playthroughs and
+                  interact with stations that provide items through shopping and
+                  upgrade gear. Rinse and repeat to unlock the best possible
+                  stats for the character(s).
+                </p>
+
+                <p>
+                  As you play, you will receive in-game EXP points to gain
+                  special skills and abilities to help you during your
+                  playthrough. As you progress through rounds, enemies get
+                  tougher to beat. After every 10 rounds, a special boss enemy
+                  will spawn (Subject to change). Once you've reached 100
+                  rounds, the player is met with 3 choices: "Defeat a final boss
+                  and receive legendary grade gear and double the EXP for your
+                  current playthrough. (Very hard)" or "End the current
+                  playthrough and receive the according EXP and materials" or
+                  "Continue the playthrough in an endless mode."
+                </p>
+                <hr />
+                <h5>
+                  <li>
+                    <u><b>Inspirations</b></u>
+                  </li>
+                </h5>
+                <br />
+                <p>
+                  In this section of the blog, I'll be sharing some of the
+                  main inspirations behind the development of the game.
+                </p>
+                <p>
+                  One of the biggest inspirations for this game is the Legend of
+                  heroes series, also known as the Trails series.
+                </p>
+                <figure>
+                  <img src="assets/images/blog/img1.jpeg" alt="Character 1" />
+                  <figcaption class="figcaption1">
+                    <p class="figcaption1-text" style="font-size: 0.6rem">
+                      Picture of the Legend of heroes protagonists.
+                    </p>
+                  </figcaption>
+                </figure>
+                <p>
+                  One of the reasons why I love the Trails series is because of
+                  the various returning characters that you can meet throughout
+                  the series. That aspect alone is something that I wanted to
+                  implement in this game. It gives a sense of nostalgia to the
+                  player when they see a familiar face from the previous games.
+                </p>
+                <p>
+                  Stay tuned for more updates as we progress with development!
+                </p>
+              </div>
+            </article>
+
+            <article class="blog-post-text" id="post-2">
+              <h3><u>Character Design Insights</u></h3>
+              <div class="post-date">June 5, 2025</div>
+              <div class="post-content">
+                <p>
+                  Today we're excited to share some insights into our character
+                  design process for Daesel Frag! Our art team has been working
+                  tirelessly to create characters that are not only visually
+                  striking but also deeply connected to the game's lore.
+                </p>
+                <p>
+                  Each character in Daesel Frag is designed with a unique
+                  silhouette and color palette that makes them instantly
+                  recognizable in the heat of battle. We've paid special
+                  attention to their weapons and abilities, ensuring they feel
+                  natural extensions of each character's personality and
+                  background story.
+                </p>
+                <p>
+                  We'll be revealing more characters in the coming weeks, so
+                  stay tuned for more updates!
+                </p>
+              </div>
+            </article>
+
+            <article class="blog-post-text" id="post-3">
+              <h3><u>Combat System Preview</u></h3>
+              <div class="post-date">June 12, 2025</div>
+              <div class="post-content">
+                <p>
+                  This week, we're giving you a sneak peek at Daesel Frag's
+                  combat system! Our goal has been to create a system that's
+                  easy to pick up but offers depth for skilled players.
+                </p>
+                <p>
+                  The combat in Daesel Frag focuses on fast-paced action with a
+                  mix of light and heavy attacks, dodges, and special abilities
+                  unique to each character. As players progress through rounds,
+                  they'll unlock more powerful skills and combo opportunities.
+                </p>
+                <p>
+                  We've implemented a dynamic difficulty scaling system that
+                  ensures enemies remain challenging as players become more
+                  powerful. This creates a satisfying progression curve that
+                  rewards skill improvement without becoming frustratingly
+                  difficult.
+                </p>
+              </div>
+            </article>
+
+            <article class="blog-post-text" id="post-4">
+              <h3><u>Enemy Types Revealed</u></h3>
+              <div class="post-date">June 20, 2025</div>
+              <div class="post-content">
+                <p>
+                  Today we're pulling back the curtain on the various enemy
+                  types you'll face in Daesel Frag! The game features a diverse
+                  roster of opponents, each with unique behaviors and attack
+                  patterns.
+                </p>
+                <p>
+                  From nimble assassins that dart around the battlefield to
+                  hulking brutes that can soak up massive damage, you'll need to
+                  adapt your tactics based on the enemy composition in each
+                  round. Some special enemies even have environmental abilities
+                  that can drastically change the battlefield.
+                </p>
+                <p>
+                  Boss enemies appear every 10 rounds and feature complex,
+                  multi-phase encounters that will test your mastery of the
+                  game's mechanics. Defeating these formidable foes rewards
+                  players with rare gear and substantial experience points.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Characters Section -->
+      <section id="characters" class="section">
+        <h2>Characters</h2>
+        <div class="characters-grid">
+          <div class="character-card">
+            <div class="character-image">
+              <img src="assets/images/placeholder.jpg" alt="Character 1" />
+            </div>
+            <h3>Ryujin St-Ishtar</h3>
+            <p class="character-role">Rogue class</p>
+            <button class="read-more">Read Bio</button>
+            <div class="character-bio">
+              <h3>Ryujin St-Ishtar</h3>
+              <p class="character-role">Rogue class</p>
+
+              <h4>Background</h4>
+              <p>
+                Born into a military family, Ryujin enlisted at 18 and quickly
+                rose through the ranks due to his exceptional combat skills.
+                After a classified mission went wrong, he was betrayed by his
+                commanding officers and left for dead.
+              </p>
+
+              <h4>Abilities</h4>
+              <p>
+                Ryujin possesses enhanced reflexes and tactical awareness from
+                experimental treatments. His signature weapons are dual plasma
+                pistols that can combine into a more powerful rifle.
+              </p>
+
+              <h4>Personality</h4>
+              <p>
+                Despite his dark past, Ryujin maintains a strong sense of
+                justice and loyalty to those he trusts. He's calculating in
+                combat but can be reckless when pursuing personal vendettas.
+              </p>
+
+              <h4>Role in Story</h4>
+              <p>
+                As players progress through the game, they discover that
+                Ryujin's quest for revenge unveils a larger conspiracy within
+                the Daesel Frag tournament, forcing him to decide between
+                personal vengeance and the greater good.
+              </p>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="assets/images/placeholder.jpg" alt="Character 2" />
+            </div>
+            <h3>Danika Mizuno</h3>
+            <p class="character-role">Samurai class</p>
+            <button class="read-more">Read Bio</button>
+            <div class="character-bio">
+              <h3>Danika Mizuno</h3>
+              <p class="character-role">Samurai class</p>
+
+              <h4>Background</h4>
+              <p>
+                Raised in the digital underworld of New Shanghai, Nova was a
+                child prodigy who hacked her first corporate database at age 12.
+                After discovering evidence of dangerous AI technology being
+                developed by the Daesel Corporation, she dedicated herself to
+                exposing their activities.
+              </p>
+
+              <h4>Abilities</h4>
+              <p>
+                Nova deploys autonomous combat drones and uses a specialized
+                neural interface to control multiple technological systems
+                simultaneously. Her ultimate ability allows her to temporarily
+                hijack enemy weapons and technology.
+              </p>
+
+              <h4>Personality</h4>
+              <p>
+                Confident and analytical, Nova approaches combat like a complex
+                puzzle to be solved. She has a dry sense of humor and forms
+                unexpected friendships with other competitors who share her
+                suspicions about the tournament.
+              </p>
+
+              <h4>Role in Story</h4>
+              <p>
+                Nova's investigation into the Daesel Frag AI leads to
+                discoveries about its true purpose, potentially setting her on a
+                collision course with Axel as their separate quests intersect in
+                unexpected ways.
+              </p>
+            </div>
+          </div>
+
+          <div class="character-card">
+            <div class="character-image">
+              <img src="assets/images/placeholder.jpg" alt="Character 3" />
+            </div>
+            <h3>Clint Hubert</h3>
+            <p class="character-role">Brawler class</p>
+            <button class="read-more">Read Bio</button>
+            <div class="character-bio">
+              <h3>Clint Hubert</h3>
+              <p class="character-role">Brawler class</p>
+
+              <h4>Background</h4>
+              <p>
+                The product of a classified super-soldier program, Magnus
+                escaped his creators and has been living off the grid for years.
+                The Daesel Frag tournament provides him both the challenge he
+                craves and the resources to stay hidden from those who would
+                recapture him.
+              </p>
+
+              <h4>Abilities</h4>
+              <p>
+                Magnus possesses superhuman strength, accelerated healing, and a
+                specialized exoskeleton that amplifies his already formidable
+                abilities. His signature weapon is a massive gravity hammer that
+                can create devastating shockwaves.
+              </p>
+
+              <h4>Personality</h4>
+              <p>
+                Stoic and imposing, Magnus speaks little but observes
+                everything. He follows a strict personal code of honor in combat
+                and respects opponents who demonstrate skill and courage,
+                regardless of their physical capabilities.
+              </p>
+
+              <h4>Role in Story</h4>
+              <p>
+                As players advance through the tournament, Magnus transitions
+                from intimidating final boss to potential ally, as his own
+                investigation into the tournament organizers aligns with the
+                protagonists' goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About the Game Section -->
+      <section id="about" class="section">
+        <h2>About Daesel Frag</h2>
+        <div class="about-content">
+          <div class="game-description">
+            <h3>Game Overview</h3>
+            <p>
+              Daesel Frag is an innovative game that blends action, strategy,
+              and immersive storytelling. Set in a unique world where players
+              will encounter challenging obstacles and engage with a rich
+              narrative.
+            </p>
+
+            <h3>Story</h3>
+            <p>
+              The world of Daesel Frag is set in a futuristic environment where
+              technology and ancient powers collide. Players will uncover the
+              mysteries of this world as they progress through the game.
+            </p>
+
+            <h3>Gameplay</h3>
+            <p>
+              Featuring fast-paced action and strategic elements, Daesel Frag
+              offers a unique gaming experience that challenges players' skills
+              and decision-making abilities.
+            </p>
+          </div>
+
+          <div class="game-media">
+            <div class="media-item">
+              <img src="assets/images/placeholder.jpg" alt="Game screenshot" />
+            </div>
+            <div class="media-item">
+              <img src="assets/images/placeholder.jpg" alt="Game artwork" />
+            </div>
+          </div>
+
+          <div class="development-team">
+            <h3>Development Team</h3>
+            <p>
+              Daesel Frag is being developed by a passionate team dedicated to
+              creating an exceptional gaming experience. Our team consists of
+              talented designers, developers, artists, and writers working
+              together to bring this vision to life.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Daesel Frag</h2>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-nav">
+          <a href="#blog">Blog</a>
+          <a href="#characters">Characters</a>
+          <a href="#about">About</a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Daesel Frag. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
